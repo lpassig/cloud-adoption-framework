@@ -148,6 +148,8 @@ An enterprise must have visibility into what's happening within their technical 
 
 - Connect default resource configurations to a centralized Azure Monitor Log Analytics workspace.
 
+- Use a centralized Azure Sentinel workspace. If multiple Azure Sentinel workspaces are needed, follow [this](https://docs.microsoft.com/azure/sentinel/extend-sentinel-across-workspaces-tenants) guidance.
+
 - Use an Azure Event Grid-based solution for log-oriented, real-time alerting.
 
 ## Plan for platform security
